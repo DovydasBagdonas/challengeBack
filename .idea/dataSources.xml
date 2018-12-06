@@ -6,6 +6,10 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <driver-properties>
+        <property name="loggerLevel" value="TRACE" />
+        <property name="connectTimeout" value="60000" />
+      </driver-properties>
     </data-source>
   </component>
 </project>
