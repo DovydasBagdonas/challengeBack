@@ -4,7 +4,9 @@
 package codingchallenge.database;
 
 
+import codingchallenge.database.tables.ArchivedList;
 import codingchallenge.database.tables.MyList;
+import codingchallenge.database.tables.records.ArchivedListRecord;
 import codingchallenge.database.tables.records.MyListRecord;
 
 import javax.annotation.Generated;
@@ -32,12 +34,14 @@ public class Keys {
     // IDENTITY definitions
     // -------------------------------------------------------------------------
 
+    public static final Identity<ArchivedListRecord, Integer> IDENTITY_ARCHIVED_LIST = Identities0.IDENTITY_ARCHIVED_LIST;
     public static final Identity<MyListRecord, Integer> IDENTITY_MY_LIST = Identities0.IDENTITY_MY_LIST;
 
     // -------------------------------------------------------------------------
     // UNIQUE and PRIMARY KEY definitions
     // -------------------------------------------------------------------------
 
+    public static final UniqueKey<ArchivedListRecord> ARCHIVED_LIST_PK = UniqueKeys0.ARCHIVED_LIST_PK;
     public static final UniqueKey<MyListRecord> MY_LIST_PKEY = UniqueKeys0.MY_LIST_PKEY;
 
     // -------------------------------------------------------------------------
@@ -50,10 +54,12 @@ public class Keys {
     // -------------------------------------------------------------------------
 
     private static class Identities0 {
+        public static Identity<ArchivedListRecord, Integer> IDENTITY_ARCHIVED_LIST = Internal.createIdentity(ArchivedList.ARCHIVED_LIST, ArchivedList.ARCHIVED_LIST.ID);
         public static Identity<MyListRecord, Integer> IDENTITY_MY_LIST = Internal.createIdentity(MyList.MY_LIST, MyList.MY_LIST.ID);
     }
 
     private static class UniqueKeys0 {
+        public static final UniqueKey<ArchivedListRecord> ARCHIVED_LIST_PK = Internal.createUniqueKey(ArchivedList.ARCHIVED_LIST, "archived_list_pk", ArchivedList.ARCHIVED_LIST.ID);
         public static final UniqueKey<MyListRecord> MY_LIST_PKEY = Internal.createUniqueKey(MyList.MY_LIST, "my_list_pkey", MyList.MY_LIST.ID);
     }
 }

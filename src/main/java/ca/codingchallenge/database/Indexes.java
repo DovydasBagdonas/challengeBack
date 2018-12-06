@@ -4,6 +4,7 @@
 package codingchallenge.database;
 
 
+import codingchallenge.database.tables.ArchivedList;
 import codingchallenge.database.tables.MyList;
 
 import javax.annotation.Generated;
@@ -30,6 +31,7 @@ public class Indexes {
     // INDEX definitions
     // -------------------------------------------------------------------------
 
+    public static final Index ARCHIVED_LIST_PK = Indexes0.ARCHIVED_LIST_PK;
     public static final Index MY_LIST_PKEY = Indexes0.MY_LIST_PKEY;
 
     // -------------------------------------------------------------------------
@@ -37,6 +39,7 @@ public class Indexes {
     // -------------------------------------------------------------------------
 
     private static class Indexes0 {
+        public static Index ARCHIVED_LIST_PK = Internal.createIndex("archived_list_pk", ArchivedList.ARCHIVED_LIST, new OrderField[] { ArchivedList.ARCHIVED_LIST.ID }, true);
         public static Index MY_LIST_PKEY = Internal.createIndex("my_list_pkey", MyList.MY_LIST, new OrderField[] { MyList.MY_LIST.ID }, true);
     }
 }

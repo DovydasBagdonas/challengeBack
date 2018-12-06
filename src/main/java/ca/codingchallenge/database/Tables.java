@@ -4,6 +4,7 @@
 package codingchallenge.database;
 
 
+import codingchallenge.database.tables.ArchivedList;
 import codingchallenge.database.tables.MyList;
 
 import javax.annotation.Generated;
@@ -21,6 +22,11 @@ import javax.annotation.Generated;
 )
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Tables {
+
+    /**
+     * The table <code>public.archived_list</code>.
+     */
+    public static final ArchivedList ARCHIVED_LIST = codingchallenge.database.tables.ArchivedList.ARCHIVED_LIST;
 
     /**
      * The table <code>public.my_list</code>.

@@ -4,6 +4,7 @@
 package codingchallenge.database;
 
 
+import codingchallenge.database.tables.ArchivedList;
 import codingchallenge.database.tables.MyList;
 
 import java.util.ArrayList;
@@ -31,12 +32,17 @@ import org.jooq.impl.SchemaImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Public extends SchemaImpl {
 
-    private static final long serialVersionUID = -238556669;
+    private static final long serialVersionUID = 1464605670;
 
     /**
      * The reference instance of <code>public</code>
      */
     public static final Public PUBLIC = new Public();
+
+    /**
+     * The table <code>public.archived_list</code>.
+     */
+    public final ArchivedList ARCHIVED_LIST = codingchallenge.database.tables.ArchivedList.ARCHIVED_LIST;
 
     /**
      * The table <code>public.my_list</code>.
@@ -68,6 +74,7 @@ public class Public extends SchemaImpl {
 
     private final List<Sequence<?>> getSequences0() {
         return Arrays.<Sequence<?>>asList(
+            Sequences.ARCHIVED_LIST_ID_SEQ,
             Sequences.MY_LIST_ID_SEQ);
     }
 
@@ -80,6 +87,7 @@ public class Public extends SchemaImpl {
 
     private final List<Table<?>> getTables0() {
         return Arrays.<Table<?>>asList(
+            ArchivedList.ARCHIVED_LIST,
             MyList.MY_LIST);
     }
 }

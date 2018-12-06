@@ -24,6 +24,11 @@ import org.jooq.impl.SequenceImpl;
 public class Sequences {
 
     /**
+     * The sequence <code>public.archived_list_id_seq</code>
+     */
+    public static final Sequence<Long> ARCHIVED_LIST_ID_SEQ = new SequenceImpl<Long>("archived_list_id_seq", Public.PUBLIC, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
+
+    /**
      * The sequence <code>public.my_list_id_seq</code>
      */
     public static final Sequence<Long> MY_LIST_ID_SEQ = new SequenceImpl<Long>("my_list_id_seq", Public.PUBLIC, org.jooq.impl.SQLDataType.BIGINT.nullable(false));

@@ -9,7 +9,6 @@ import codingchallenge.database.Keys;
 import codingchallenge.database.Public;
 import codingchallenge.database.tables.records.MyListRecord;
 
-import java.sql.Date;
 import java.util.Arrays;
 import java.util.List;
 
@@ -40,7 +39,7 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class MyList extends TableImpl<MyListRecord> {
 
-    private static final long serialVersionUID = 2080514842;
+    private static final long serialVersionUID = -1810685667;
 
     /**
      * The reference instance of <code>public.my_list</code>
@@ -73,7 +72,7 @@ public class MyList extends TableImpl<MyListRecord> {
     /**
      * The column <code>public.my_list.creation_date</code>.
      */
-    public final TableField<MyListRecord, Date> CREATION_DATE = createField("creation_date", org.jooq.impl.SQLDataType.DATE, this, "");
+    public final TableField<MyListRecord, String> CREATION_DATE = createField("creation_date", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
      * Create a <code>public.my_list</code> table reference
