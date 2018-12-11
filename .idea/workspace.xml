@@ -5,29 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2607a692-86eb-494e-b71e-15fbd6753cc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin-build/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/codingChallenge.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/codingchallenge/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/codingchallenge/controllers/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/codingchallenge/controllers/MakeSpringPrettyPrintJSON.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ca/codingchallenge/model/ToDo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/DefaultCatalog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/Indexes$Indexes0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/Indexes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/Keys$Identities0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/Keys$UniqueKeys0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/Keys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/Public.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/Sequences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/Tables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/tables/ArchivedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/tables/MyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/tables/records/ArchivedListRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/codingchallenge/database/tables/records/MyListRecord.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/codingchallenge/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/codingchallenge/controllers/MainController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -141,11 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/codingchallenge/controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -171,7 +145,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/codingchallenge/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="105">
               <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -483,11 +457,12 @@
       <workItem from="1544135050113" duration="2784000" />
       <workItem from="1544568216868" duration="2118000" />
       <workItem from="1544570685928" duration="79000" />
+      <workItem from="1544570921252" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75816000" />
+    <option name="totallyTimeSpent" value="75887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,11 +474,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47648904" visible="true" weight="0.29463792" />
-      <window_info id="Structure" order="1" sideWeight="0.523511" side_tool="true" visible="true" weight="0.29463792" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4754441" visible="true" weight="0.29795468" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5245559" side_tool="true" visible="true" weight="0.29795468" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -684,11 +659,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/codingchallenge/controllers/DatabaseConnect.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/codingchallenge/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -708,7 +680,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/codingchallenge/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="105">
           <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />

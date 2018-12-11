@@ -11,15 +11,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import java.util.concurrent.atomic.AtomicLong;
 import codingchallenge.database.tables.MyList;
 import codingchallenge.database.tables.ArchivedList;
 
 @RestController
 public class MainController {
     private List<ToDo> toDos = new ArrayList<>();
-    private AtomicLong nextId = new AtomicLong();
-    private DSLContext dsl;
 
     @GetMapping("/hello")
     public String getHelloMessage(){
