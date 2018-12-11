@@ -14,8 +14,6 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 import codingchallenge.database.tables.MyList;
 import codingchallenge.database.tables.ArchivedList;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-
 
 @RestController
 public class MainController {
@@ -26,11 +24,10 @@ public class MainController {
     @GetMapping("/hello")
     public String getHelloMessage(){
 
-
         return "hello world";
     }
 
-    @GetMapping("/hello2")
+    @GetMapping("/getlist")
     @CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5000"})
     public List getListOfToDo() {
         String user = "dovydas";
